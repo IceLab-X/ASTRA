@@ -8,10 +8,10 @@ import sys  # <-- Added this import to fix the NameError
 import io  # <-- Added this import as it's used at the bottom
 
 # --- Configuration ---
-DB_PATH = "C:/MCP/ragfiles"  # Your Database data path
-COLLECTION_NAME = "my_collection_bge3"
+DB_PATH = "./database"  # Your Database data path
+COLLECTION_NAME = "my_collection"
 MODEL_NAME = 'BAAI/bge-m3'
-CHUNK_SIZE = 500
+CHUNK_SIZE = 500   # Adjust based on real case
 ENCODING_BATCH_SIZE = 32  # Adjust based on your GPU/CPU memory
 UPLOAD_BATCH_SIZE = 500  # Adjust based on your system's memory
 

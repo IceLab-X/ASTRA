@@ -23,9 +23,7 @@ import math
 from scipy.interpolate import interp1d
 
 
-# ==============================================================================
-# LUT Lookup Helper Functions
-# ==============================================================================
+
 
 def find_closest_points_indices(lst, aim_L):
     """
@@ -112,9 +110,6 @@ def calculate_w_linear_PMOS_pro(aim_L, aim_I, gmid, logger):
         return 0.18e-6
 
 
-# ==============================================================================
-# Normalization Functions
-# ==============================================================================
 
 def normalize(tensor, bounds):
     """Normalizes the tensor to the [0, 1] range."""
@@ -130,9 +125,6 @@ def unnormalize(tensor, bounds):
     return tensor
 
 
-# ==============================================================================
-# Main Bayesian Optimization Class (Modified to output 12 parameters)
-# ==============================================================================
 
 class BayesianOptimization():
     def __init__(self, n):

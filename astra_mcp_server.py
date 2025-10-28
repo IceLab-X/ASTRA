@@ -17,8 +17,8 @@ import threading
 mcp = FastMCP("LOCAL", timeout=6000, request_timeout=6000, execution_timeout=6000)
 
 # --- Database Connection (Assumes DB is already built) ---
-db_path = "C:/MCP/ragfiles"  # Your Database data path
-collection_name = "my_collection_bge2"
+db_path = "./database"  # Your Database data path
+collection_name = "my_collection"
 
 # --- Model & DB (Lazy Loading) ---
 # We load the model AND database "lazily" (on first use) inside the tool
