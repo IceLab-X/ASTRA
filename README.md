@@ -138,7 +138,7 @@ Analyse the circuit according to the netlist and constraint，Outputs the result
 - *Note:* Enter a sentence semantically related to "find initial design," plus the value for each gm/id, to proceed with the `find_initial_design` step.
 - The final result will be an initial feasible point (saved to the specified path) and a `task_id`.
 
-#### Step B: ASTRA-FocalOpt (Run Focused Optimization - Stage 2-4)
+#### Step B: ASTRA-FocalOpt (Run Focused Optimization - Stage 2)
 
 Once the Stage 1 task is complete (confirmed via `check_task_status`), use the `task_id` returned from Stage 1 to initiate the FocalOpt task.
 
