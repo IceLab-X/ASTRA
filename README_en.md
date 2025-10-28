@@ -155,6 +155,8 @@ with 450 total iterations.
 - **Expected Result:** The LLM will call the `FocalOpt` tool, return a `task_id`, and begin the multi-stage focused optimization.
 - The final result will be outputted to the specified path.
 
+**Important:** Circuit data and netlist must be replaced according to the actual circuit being optimized.
+
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
