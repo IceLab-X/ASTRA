@@ -12,7 +12,7 @@ def set_bounds(value: float) -> list:
 def init_OTA_two(logger=None):
     """
     Initializes parameter ranges and constraint thresholds for the OTA Two-Stage Op-Amp.
-    The parameters are Cap, L1-L5, R, and W1-W5 (12 parameters total).
+    The parameters are Cap, L1-L5, R, and W1-W5 (12 parameters total)
     """
 
     # Saturation region search values (based on typical starting point)
